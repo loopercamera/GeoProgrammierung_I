@@ -91,7 +91,7 @@ class Fenster(QMainWindow):
         
 
     def load (self):
-        speicherpfad, filter =QFileDialog.getOpenFileName(self,"Datei öffen","" ,"Text Files(*.txt) ;; Python Files (*.py)")
+        speicherpfad, filter =QFileDialog.getOpenFileName(self,"Datei öffen","" ,"Text Files(*.txt)")
         
         if speicherpfad != "":
             
